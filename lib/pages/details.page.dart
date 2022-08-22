@@ -14,7 +14,7 @@ class DetailsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text(args.title)),
       body: Container(
-        padding: EdgeInsets.all(28),
+        padding: const EdgeInsets.all(28),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
